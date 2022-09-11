@@ -110,6 +110,8 @@ a:focus {
 }
 
 .product-card__button {
+  font-family: var(--body-font);
+  font-weight: 700;
   background-color: var(--primary-color);
   font-size: 1rem;
   color: #fff;
@@ -134,11 +136,6 @@ a:focus {
 .product-card__button__icon {
   width: 18px;
   height: 19px;
-}
-
-.product-card__button__text {
-  font-family: var(--body-font);
-  font-weight: 700;
 }
 
 .attribution {
