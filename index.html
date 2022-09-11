@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <section class="product-card">
+      <div class="product-card__image">
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="Gabrielle Essence Eau De Parfum"
+        />
+      </div>
+      <div class="product-card__content">
+        <p class="product-card__category">Perfume</p>
+        <h2 class="product-card__title">Gabrielle Essence Eau De Parfum</h2>
+        <p class="product-card__description">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="product-card__price">
+          <p class="product-card__price--current">$149.99</p>
+          <p class="product-card__price--original">$169.99</p>
+        </div>
+        <button class="product-card__button">
+          <svg
+            class="product-card__button__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 18 19"
+          >
+            <path
+              d="M16.125 11.5C16.1233 11.0498 15.9867 10.6104 15.7326 10.2387C15.4786 9.86702 15.1189 9.58008 14.7 9.41501L16.1025 4.16501C16.1318 4.0532 16.1349 3.93613 16.1114 3.82294C16.088 3.70975 16.0388 3.60351 15.9675 3.51251C15.8947 3.42724 15.8036 3.35939 15.7011 3.31396C15.5985 3.26853 15.4871 3.24668 15.375 3.25001H5.1L4.8525 2.30501C4.80947 2.14519 4.71478 2.0041 4.58319 1.90371C4.45161 1.80332 4.29051 1.74928 4.125 1.75001H2.625V3.25001H3.5475L5.4075 10.195C5.45145 10.3586 5.5495 10.5025 5.68569 10.6033C5.82188 10.7041 5.98818 10.7558 6.1575 10.75H13.875C14.0739 10.75 14.2647 10.829 14.4053 10.9697C14.546 11.1103 14.625 11.3011 14.625 11.5C14.625 11.6989 14.546 11.8897 14.4053 12.0303C14.2647 12.171 14.0739 12.25 13.875 12.25H4.125C3.92609 12.25 3.73532 12.329 3.59467 12.4697C3.45402 12.6103 3.375 12.8011 3.375 13C3.375 13.1989 3.45402 13.3897 3.59467 13.5303C3.73532 13.671 3.92609 13.75 4.125 13.75H5.01C4.88665 14.0899 4.84702 14.4544 4.89445 14.8128C4.94188 15.1713 5.07498 15.513 5.28249 15.809C5.48999 16.1051 5.76579 16.3468 6.08651 16.5137C6.40724 16.6805 6.76346 16.7676 7.125 16.7676C7.48654 16.7676 7.84276 16.6805 8.16349 16.5137C8.48421 16.3468 8.76001 16.1051 8.96751 15.809C9.17502 15.513 9.30812 15.1713 9.35555 14.8128C9.40299 14.4544 9.36335 14.0899 9.24 13.75H11.01C10.8977 14.0595 10.8547 14.3898 10.884 14.7177C10.9133 15.0456 11.0142 15.363 11.1795 15.6477C11.3449 15.9323 11.5707 16.1772 11.841 16.3651C12.1114 16.553 12.4196 16.6792 12.7441 16.735C13.0685 16.7907 13.4012 16.7746 13.7187 16.6877C14.0363 16.6009 14.3309 16.4454 14.5818 16.2323C14.8327 16.0191 15.0337 15.7535 15.1708 15.4542C15.3078 15.1549 15.3776 14.8292 15.375 14.5C15.3736 14.1125 15.2701 13.7323 15.075 13.3975C15.3957 13.1953 15.6601 12.9153 15.8437 12.5836C16.0273 12.2519 16.124 11.8791 16.125 11.5V11.5ZM13.1925 9.25001H6.75L5.505 4.75001H14.4L13.1925 9.25001ZM7.125 15.25C6.97666 15.25 6.83166 15.206 6.70832 15.1236C6.58499 15.0412 6.48886 14.9241 6.43209 14.787C6.37532 14.65 6.36047 14.4992 6.38941 14.3537C6.41835 14.2082 6.48978 14.0746 6.59467 13.9697C6.69956 13.8648 6.8332 13.7934 6.97868 13.7644C7.12417 13.7355 7.27497 13.7503 7.41201 13.8071C7.54906 13.8639 7.66619 13.96 7.7486 14.0833C7.83101 14.2067 7.875 14.3517 7.875 14.5C7.875 14.6989 7.79598 14.8897 7.65533 15.0303C7.51468 15.171 7.32391 15.25 7.125 15.25ZM13.125 15.25C12.9767 15.25 12.8317 15.206 12.7083 15.1236C12.585 15.0412 12.4889 14.9241 12.4321 14.787C12.3753 14.65 12.3605 14.4992 12.3894 14.3537C12.4184 14.2082 12.4898 14.0746 12.5947 13.9697C12.6996 13.8648 12.8332 13.7934 12.9787 13.7644C13.1242 13.7355 13.275 13.7503 13.412 13.8071C13.5491 13.8639 13.6662 13.96 13.7486 14.0833C13.831 14.2067 13.875 14.3517 13.875 14.5C13.875 14.6989 13.796 14.8897 13.6553 15.0303C13.5147 15.171 13.3239 15.25 13.125 15.25Z"
+              fill="white"
+            />
+          </svg>
+          <p class="product-card__button__text">Add to Cart</p>
+        </button>
+      </div>
+    </section>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://twitter.com/LukeDHarrison_#">ldh</a>.
+    </footer>
+  </body>
+</html>
