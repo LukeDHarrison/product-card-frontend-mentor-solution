@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/LukeDHarrison/product-card-frontend-mentor-solution)
+- Live Site URL: [live site URL](https://product-card-frontend-mentor-solution.netlify.app/)
 
 ## My process
 
@@ -56,12 +56,10 @@ to different screen sizes.
 ### Useful resources
 
 This article from CSS Tricks was helpful in identifying the
-"object-position" property. (https://css-tricks.com/almanac/properties/o/object-position/)
+"object-position" property. [](https://css-tricks.com/almanac/properties/o/object-position/)
 
 ## Author
 
 - Website - [Luke D Harrison](https://www.your-site.com)
 - Frontend Mentor - [@LukeDHarrison](https://www.frontendmentor.io/profile/LukeDHarrison)
 - Twitter - [@LukeDHarrison\_](https://twitter.com/LukeDHarrison_)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
